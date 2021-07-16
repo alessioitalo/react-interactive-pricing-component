@@ -1,0 +1,20 @@
+.button {
+  margin: 0.8rem;
+  font-family: "Manrope", sans-serif;
+  color: hsl(226, 100%, 87%);
+  font-size: 0.7rem;
+  background-color: hsl(227, 35%, 25%);
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+}
+
+@media screen and (min-width: 500px) {
+  .button {
+  }
+}

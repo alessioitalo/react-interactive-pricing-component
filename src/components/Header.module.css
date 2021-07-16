@@ -1,0 +1,13 @@
+.header-container {
+  padding: 3rem 0 2.5rem;
+}
+
+.header {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: hsl(227, 35%, 25%);
+}
+
+.subheader {
+  line-height: 0.7;
+}

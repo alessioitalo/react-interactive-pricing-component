@@ -1,0 +1,100 @@
+.container {
+  padding: 0;
+  box-shadow: 1px 5px 5px hsla(226, 22%, 77%, 0.4);
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: hsl(0, 0%, 100%);
+  padding: 1rem 1rem;
+  background-color: hsl(0, 0%, 100%);
+  min-width: 16rem;
+}
+
+.top {
+  border-radius: 10px 10px 0 0;
+}
+
+.flexdiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.bottom {
+  border-top: 1px solid hsla(226, 22%, 77%, 0.4);
+  border-radius: 0 0 10px 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 2.5;
+}
+
+.views {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 800;
+}
+
+.price {
+  font-size: 1.8rem;
+  color: hsl(227, 35%, 25%);
+  letter-spacing: -1px;
+  display: inline-block;
+}
+
+.check {
+  background-image: url("../images/icon-check.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding-right: 0.4rem;
+  position: relative;
+  top: 0.2rem;
+}
+
+.line {
+  margin-top: 1rem;
+  height: 1px;
+  position: relative;
+  right: 2rem;
+  width: 130%;
+  background-color: hsla(226, 22%, 77%, 0.4);
+  display: block;
+}
+
+@media screen and (min-width: 500px) {
+  .card {
+    min-width: 25rem;
+  }
+  .flexdiv {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .views {
+    position: relative;
+    bottom: 0.4rem;
+  }
+}
