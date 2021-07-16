@@ -5,15 +5,14 @@ function ToggleSwitch(props) {
   let priceSpanMobile = <span className={styles.discount}>-25%</span>;
   let priceSpanDesktop = <span className={styles.discount}>-25% discount</span>;
   let screenWidth = window.innerWidth;
-  let initialState = null;
-  // const refInitialState = useRef(initialState)
 
   const [desktop, setDesktop] = useState(null);
 
   useEffect(() => {
+    let initialState = null;
     screenWidth > 500 ? (initialState = true) : (initialState = false);
     setDesktop(initialState);
-    return initialState
+    return ()=>{setDesktop(null)}
   }, [screenWidth]);
 
   window.addEventListener("resize", () => {

@@ -71,7 +71,7 @@ li {
   display: block;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 450px) {
   .card {
     min-width: 25rem;
   }

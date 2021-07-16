@@ -125,13 +125,13 @@ function Card() {
   );
 
   let screenWidth = window.innerWidth;
-  let initialState = null;
   const [desktop, setDesktop] = useState(null);
 
   useEffect(() => {
+    let initialState = null;
     screenWidth > 500 ? (initialState = true) : (initialState = false);
     setDesktop(initialState);
-  }, []);
+  }, [screenWidth]);
 
   window.addEventListener("resize", () => {
     if (screenWidth > 500) {
