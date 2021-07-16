@@ -24,13 +24,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
-### Screenshot
-
-![desktop1.png]
-![desktop2.png]
-![mobile1.png]
-![mobile2.png]
-
 [![Screenshot-React-Social-Media-Dashboard.png]
 ### Links
 
