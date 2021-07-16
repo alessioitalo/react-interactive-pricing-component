@@ -26,15 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop1.png)
-![](./desktop2.png)
-![](./mobile1.png)
-![](./mobile2.png)
+![desktop1.png]
+![desktop2.png]
+![mobile1.png]
+![mobile2.png]
 
+[![Screenshot-React-Social-Media-Dashboard.png]
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [link](https://www.frontendmentor.io/solutions/reactinteractivepricingcomponent-F3p5K3ZKx)
+- Live Site URL: [link](https://react-interactive-pricing-component.vercel.app/)
 
 ### Built with
 
@@ -52,8 +53,8 @@ I am fully aware my solution is far from being perfect and it is definitively no
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/alessioitalo)
-- Twitter - [@yourusername](https://www.twitter.com/alessioitalo)
+- Frontend Mentor - [@alessioitalo](https://www.frontendmentor.io/profile/alessioitalo)
+- Twitter - [@alessioitalo](https://www.twitter.com/alessioitalo)
 
 
 
