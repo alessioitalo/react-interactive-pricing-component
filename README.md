@@ -24,7 +24,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
-[![Screenshot-React-Social-Media-Dashboard.png]
 ### Links
 
 - Solution URL: [link](https://www.frontendmentor.io/solutions/reactinteractivepricingcomponent-F3p5K3ZKx)
